@@ -1,0 +1,40 @@
+---
+title: Evaluating Performance of Different RNA Secondary Structure Prediction Programs
+  Using Self-cleaving Ribozymes
+authors:
+- Fei Qi
+- Junjie Chen
+- Yue Chen
+- Jianfeng Sun
+- Yiting Lin
+- Zipeng Chen
+- Philipp Kapranov
+date: '2024-06-01'
+publishDate: '2025-03-21T15:52:19.670771Z'
+publication_types:
+- article-journal
+publication: '*Genomics, Proteomics & Bioinformatics*'
+doi: 10.1093/gpbjnl/qzae043
+abstract: Accurate identification of the correct, biologically relevant RNA structures
+  is critical to understanding various aspects of RNA biology since proper folding
+  represents the key to functionality of all types of RNA molecules and plays pivotal
+  roles in many essential biological processes. Thus, a plethora of approaches have
+  been developed to predict, identify, or solve RNA structures based on various computational,
+  molecular, genetic, chemical, or physicochemical strategies. Purely computational
+  approaches hold distinct advantages over all other strategies in terms of the ease
+  of implementation, time, speed, cost, and throughput, but they strongly underperform
+  in terms of accuracy that significantly limits their application. Nonetheless, the
+  advantages of these methods led to a steady development of multiple in silico RNA
+  secondary structure prediction approaches including recent deep learning-based programs.
+  Here, we compared the accuracy of predictions of biologically relevant secondary
+  structures of dozens of self-cleaving ribozyme sequences using 7 in silico RNA folding
+  prediction tools with tasks of varying complexity. We found that while many programs
+  performed well in relatively simple tasks, the performance varied significantly
+  in more complex RNA folding problems. However, in general, a modern deep learning
+  method outperformed the other programs in the complex tasks in predicting the RNA
+  secondary structures, at least based on the specific class of tested sequences,
+  suggesting that it might represent the future of RNA structure prediction algorithms.
+links:
+- name: URL
+  url: https://doi.org/10.1093/gpbjnl/qzae043
+---

@@ -1,0 +1,37 @@
+---
+title: Improved sequence-based prediction of interaction sites in α-helical transmembrane
+  proteins by deep learning
+authors:
+- Jianfeng Sun
+- Dmitrij Frishman
+date: '2021-01-01'
+publishDate: '2025-03-21T15:52:19.583965Z'
+publication_types:
+- article-journal
+publication: '*Computational and Structural Biotechnology Journal*'
+doi: https://doi.org/10.1016/j.csbj.2021.03.005
+abstract: Interactions between transmembrane (TM) proteins are fundamental for a wide
+  spectrum of cellular functions, but precise molecular details of these interactions
+  remain largely unknown due to the scarcity of experimentally determined three-dimensional
+  complex structures. Computational techniques are therefore required for a large-scale
+  annotation of interaction sites in TM proteins. Here, we present a novel deep-learning
+  approach, DeepTMInter, for sequence-based prediction of interaction sites in α-helical
+  TM proteins based on their topological, physiochemical, and evolutionary properties.
+  Using a combination of ultra-deep residual neural networks with a stacked generalization
+  ensemble technique DeepTMInter significantly outperforms existing methods, achieving
+  the AUC/AUCPR values of 0.689/0.598. Across the main functional families of human
+  transmembrane proteins, the percentage of amino acid sites predicted to be involved
+  in interactions typically ranges between 10% and 25%, and up to 30% in ion channels.
+  DeepTMInter is available as a standalone package at https://github.com/2003100127/deeptminter.
+  The training and benchmarking datasets are available at https://data.mendeley.com/datasets/2t8kgwzp35.
+tags:
+- Deep learning
+- Molecular evolution
+- Protein function
+- Protein structure
+- Protein-protein interactions
+- Sequence annotation
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S2001037021000775
+---

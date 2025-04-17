@@ -1,0 +1,12 @@
+# ingore data folder
+public/
+resources/
+
+publications.bib
+
+.hugo_build.lock
+
+go.sum
+
+hugo_stats.json
+

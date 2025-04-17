@@ -6,7 +6,7 @@
 
 This GitHub repository hosts Jianfeng Sun’s personal website, where I regularly update my latest profile and research.
 
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/ "Go to project documentation")
 
 ## 📧 Reach out
 [![Linkedin Badge](https://img.shields.io/badge/-Jianfeng_Sun-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jianfeng-sun-2ba9b1132)](https://www.linkedin.com/in/jianfeng-sun-2ba9b1132) 

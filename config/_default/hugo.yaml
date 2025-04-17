@@ -6,7 +6,7 @@
 # Website name
 title: JSun Academic Website
 # Website URL
-baseURL: 'https://scholar.google.com/citations?hl=en&user=TfLBR9kAAAAJ&view_op=list_works&sortby=pubdate'
+baseURL: "https://jsun.pro/"
 
 ############################
 ## LANGUAGE

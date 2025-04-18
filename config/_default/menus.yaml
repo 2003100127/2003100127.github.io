@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: CV
-    url: https://scholar.google.com/citations?user=TfLBR9kAAAAJ&hl=en
+    url: http://2003100127.github.io/profiler/jsun-cv.html
     weight: 11
   - name: Publications
     url: /#papers

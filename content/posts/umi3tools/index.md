@@ -74,7 +74,7 @@ This integrated ecosystem (_Homotrimer UMIs, UMIche, Tresor, and mclUMI_) provid
 
 ## 🎩 Acknowledgement
 
-I would like to thank my collaborators: [Prof. Adam Cribbs](https://www.ndorms.ox.ac.uk/team/adam-cribbs), [Prof. Stefan Canzar](https://canzarlab.com), and [Dr. Shuang Li](https://canzarlab.com), for their contributions to the completion of this work.
+I would like to thank my collaborators: [Prof. Adam Cribbs](https://www.ndorms.ox.ac.uk/team/adam-cribbs), [Prof. Stefan Canzar](https://canzarlab.com), and [Dr. Shuang Li](https://canzarlab.com), for their valuable support and contributions to these studies.
 
 💻 Code resources:
 

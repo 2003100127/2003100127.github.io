@@ -60,7 +60,8 @@ An anchor-interposed bead is designed to enhance single-cell long-read transcrip
 
 {{< icon name="custom/arrow-long-right" pack="heroicons" >}}News about this research was published on NDORMS News, check [**here**](https://www.ndorms.ox.ac.uk/news/innovative-bead-design-will-enhance-single-cell-transcriptomics-accuracy)
 
-![](NDORMS-News.jpg "Figure. 1 Ecological system of UMI-centric analysis for improving molecular quantification and optimising sequencing experiments.")
+![](ndorms_news.jpg "Figure. 1 Two strategies to improve long-read transcriptome sequencing:
+Homotrimer UMI labeling for quantification accuracy and anchor bead design for better read recovery.")
 
 To better convey the core contributions of our work to a broader audience, I am here trying to clarify the fundamental distinction between two major studies we published over the past year. One study focuses on eliminating PCR artefacts to improve the accuracy of molecular quantification, through what we call [**the homotrimer UMI demultiplexing approach**](https://doi.org/10.1038/s41592-024-02168-y). The other, which is the subject of our current work, addresses the issue of truncated UMIs caused by poly(T) sequences, thereby enhancing the efficiency of capturing long-read sequences.
 

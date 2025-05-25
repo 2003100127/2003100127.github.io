@@ -93,11 +93,10 @@ While it is difficult to definitively determine which extracted UMI is **“corr
 
 ### 4. Solution (anchor for UMI boundary recognition)
 
-To address this challenge, we introduced a short 4-nucleotide anchor sequence (**BAGC**) between the cell barcode and the UMI in the bead design. This anchor serves as a unique positional marker that enables unambiguous identification of the UMI start site in long-read sequencing data. We updated the [**scCOLOR-seq**](https://www.nature.com/articles/s41587-021-00965-w){{< icon name="custom/arrow-top-right-on-square" pack="heroicons" >}} protocol to incorporate this design, naming it **scCOLOR-seqv2**.
+To address this challenge, we introduced a short 4-nucleotide anchor sequence (**BAGC**) between the cell barcode and the UMI in the bead design. This anchor serves as a unique positional marker that allows unambiguous identification of the UMI start site in long-read sequencing data. This design was incorporated to the [**scCOLOR-seq**](https://www.nature.com/articles/s41587-021-00965-w){{< icon name="custom/arrow-top-right-on-square" pack="heroicons" >}} protocol as **scCOLOR-seqv2**.
 
-After implementing this anchor-based bead design, we used our detection algorithm to evaluate the base composition of extracted UMIs from **scCOLOR-seqv2** datasets. We observed a significant reduction in terminal T-content, strongly suggesting that anchor-guided UMI extraction minimises polyT contamination. In contrast, a control approach that extracts the UMI by counting a fixed number of bases downstream from a known primer position failed to eliminate polyT bias likely due to the influence of indels that shift the effective start site of the UMI. While we did not experimentally validate the role of indels in this context, the data suggest a strong possibility that such structural variations contribute to incorrect UMI boundary identification when positional methods are used.
+We evaluated the base composition of extracted UMIs from reads sequenced with **scCOLOR-seqv2**. We observed a significant reduction in terminal T-content, strongly suggesting that anchor-guided UMI extraction minimises polyT contamination. In contrast, a control approach that extracts the UMI by counting a fixed number of bases downstream from a known primer position failed to eliminate polyT bias likely due to the influence of indels that shift the effective start site of the UMI. While we did not experimentally validate the role of indels in this context, the data suggest a strong possibility that such structural variations contribute to incorrect UMI boundary identification when positional methods are used.
 
-Simulation of sequencing errors and anchor based recovery
 To further assess the robustness of the anchor approach under variable sequencing conditions, we conducted in silico simulations mimicking realistic long-read sequencing scenarios. These simulations introduced indel and substitution errors during both the PCR amplification and sequencing phases.
 
 ### 5. Computational simulation report
@@ -107,7 +106,7 @@ You can find how we made this simulation [here](https://2003100127.github.io/mcv
 Across a range of error rates, the anchor-based method consistently outperformed positional extraction, significantly improving the proportion of long reads in which the UMI could be successfully and accurately recovered. This improvement is critical for downstream applications such as gene expression quantification, especially in single-cell contexts where data is sparse and sensitive to noise.
 
 ### 6. Implications and significance
-Sequencing remains a highly error-prone process. Accurately revealing biology, especially in the context of transcript quantification, requires not only advancements in laboratory methods but also the design of computational strategies that account for and correct technical artifacts.
+Sequencing remains an error-prone process. Accurately revealing biology, especially in the context of transcript quantification, requires not only advancements in laboratory methods but also the design of computational strategies that account for and correct technical artifacts.
 
 ### 7. Concluding remarks
 

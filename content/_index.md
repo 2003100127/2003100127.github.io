@@ -62,17 +62,17 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Some talks
-      filters:
-        folders:
-          - event
-      count: 3
-    design:
-      view: article-grid
-      columns: 3
+#  - block: collection
+#    id: talks
+#    content:
+#      title: Some talks
+#      filters:
+#        folders:
+#          - event
+#      count: 3
+#    design:
+#      view: article-grid
+#      columns: 3
   - block: collection
     id: news
     content:
